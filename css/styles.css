@@ -1,47 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@400&display=swap');
+
 body{
-    background-color: #dcdcdc;
+    background-color: #f4f4f4;
     margin: 0;
 }
 
 img{
     height: 15rem;
     align-items: center;
-    margin: 1rem;
+    margin-top: 1rem;
 }
 
 header{
-    background-color: rgb(118, 118, 255);
+    background-color: #005677;
     text-align: center;
     margin-bottom: 0px;
 }
 
 h1{
-    background-color: rgb(72, 72, 255);
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 4rem;
+    background-color: #005677;
+    color: rgb(226, 226, 226);
+    font-family: 'Cairo Play', sans-serif;
+    font-size: 5rem;
     text-align: center;
     margin: 0px;
-    padding: 7px;
+    padding: 0px;
+}
+
+.primer-a{
+    margin-left: 0px;
 }
 
 a{
-    background-color: rgb(72, 72, 255);
-    color: white;
+    background-color: #005677;
+    color: rgb(226, 226, 226);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-align: center;
-    margin: 0px;
+    margin-right: 0px;
+    margin-left: 20px;
     padding: 7px; 
 }
 
 .secundario{
-    background-color: rgb(72, 72, 255);
-    color: white;
+    background-color: #005677;
+    color: rgb(226, 226, 226);
     font-family: Verdana, sans-serif;
-    font-size: 3rem;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+h3{
+    margin-inline-start: 10px;
 }
 
 .sin-vineta{
@@ -50,28 +61,30 @@ a{
 
 span{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5rem;
+    font-size: 30px;
     font-weight: bold;
 }
 
 ul{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5rem;
+    margin-inline-start: 10px;
+    font-size: 30px;
 }
+
 
 .margen{
     margin-top: 10rem;
 }
 
 footer{
-    background-color: rgb(72, 72, 255);
+    background-color: #005677;
     margin: 0px;
 }
 
 .footer{
     color: white;
-    font-weight: bold;
     font-size: 2rem;
     text-align: center;
     padding: 10px;
+    margin-bottom: 0px;
 }
